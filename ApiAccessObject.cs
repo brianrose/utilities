@@ -15,6 +15,7 @@ namespace Utilities
         public void Run()
         {
             Connect();
+            GetData();
             Process();
         }
     }
