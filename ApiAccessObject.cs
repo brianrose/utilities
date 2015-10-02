@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Utilities
 {
-    class ApiAccessObject
+    abstract class ApiAccessObject
     {
         public abstract void Connect();
         public abstract void GetData();
