@@ -88,6 +88,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiAccessObject.cs" />
+    <Compile Include="Gmail\GmailAuthorizer.cs" />
+    <Compile Include="Gmail\IGmailAuthorizer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
