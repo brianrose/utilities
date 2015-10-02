@@ -46,7 +46,8 @@
       <HintPath>..\packages\Google.Apis.Core.1.9.2\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Core.dll</HintPath>
     </Reference>
     <Reference Include="Google.Apis.Gmail.v1">
-      <HintPath>..\packages\Google.Apis.Gmail.v1.1.9.2.330\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Gmail.v1.dll</HintPath>
+      <HintPath>packages\Google.Apis.Gmail.v1.1.9.2.330\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Gmail.v1.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Google.Apis.PlatformServices">
       <HintPath>..\packages\Google.Apis.1.9.2\lib\net40\Google.Apis.PlatformServices.dll</HintPath>
