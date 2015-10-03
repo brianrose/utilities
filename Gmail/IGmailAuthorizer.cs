@@ -7,7 +7,7 @@ using Google.Apis.Auth.OAuth2;
 
 namespace Utilities.Gmail
 {
-    interface IGmailAuthorizer
+    public interface IGmailAuthorizer
     {
         UserCredential Authorize();
     }
